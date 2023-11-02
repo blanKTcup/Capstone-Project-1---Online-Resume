@@ -1,0 +1,41 @@
+
+
+.body {
+  font-style: "Times New Roman";
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+}
+
+#textbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftalign {
+  width: 33.333333333%;
+  text-align: left;
+}
+
+.centeralign {
+  width: 33.333333333%;
+  text-align: center;
+}
+
+.rightalign {
+  width: 33.333333333%;
+  text-align: right;
+  
+}
+
+#firstlast {
+  font-size: 22px;
+  font-weight: bold;
+}
