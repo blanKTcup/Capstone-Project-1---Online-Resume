@@ -1,5 +1,29 @@
 {
-  "editor.tabSize": 2,
-  "files.autoSave": "afterDelay",
-  "editor.detectIndentation": false
+	"editor.formatOnSave": true,
+	"prettier.endOfLine": "auto",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"editor.wordWrap": "wordWrapColumn",
+	"prettier.useTabs": true,
+	"editor.fontSize": 16,
+	"editor.mouseWheelZoom": true,
+	"explorer.confirmDragAndDrop": false,
+	"javascript.suggest.autoImports": false,
+	"files.autoSave": "afterDelay",
+	"editor.detectIndentation": false,
+	"editor.codeActionsOnSave": {
+    
+		"source.fixAll": true,
+		"source.sortImports": true
+	},
+	"settingsSync.ignoredSettings": [],
+	"[css]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"window.zoomlevel": 3,
+	"editor.tabSize": 2,
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": ""
 }
